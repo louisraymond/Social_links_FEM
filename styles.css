@@ -24,6 +24,14 @@ body {
     font-weight: 400;
 }
 
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 :root {
     --green: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%);
@@ -56,6 +64,13 @@ img {
     height: 88px;
     width: 88px;
     border-radius: 50%;
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
 }
 
 ul {
