@@ -75,6 +75,13 @@ ul li {
     margin: 0 0px 16px 0;
 }
 
+ul li:hover {
+    background-color: var(--green);
+    color: var(--dark-grey);
+    transition: 0.3s;
+
+}
+
 h1 {
     font-size: 24px;
     color: var(--white);
@@ -90,4 +97,18 @@ h2 {
 p {
     font-size: 14px;
     color: var(--white);
+}
+
+
+@media (max-width: 700px) {
+    main {
+        height: auto;
+        padding: 20px 0 20px 0;
+        width: 327px;
+    }
+    
+    img {
+        height: 64px;
+        width: 64px;
+    }
 }
