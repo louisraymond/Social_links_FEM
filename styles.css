@@ -22,13 +22,13 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-}
+    height: 100dvh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    }
 
 .attribution {
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    right: 0;
     text-align: center;
 }
 
